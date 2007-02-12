@@ -1,5 +1,5 @@
 Summary:	Tunneling a TCP connection through to a remote server using an HTTP or SOCKS5 proxy
-Summary(pl):	Tunelowanie po³±czenia TCP do zdalnego serwera przy u¿yciu proxy HTTP lub SOCKS5
+Summary(pl.UTF-8):   Tunelowanie poÅ‚Ä…czenia TCP do zdalnego serwera przy uÅ¼yciu proxy HTTP lub SOCKS5
 Name:		prtunnel
 Version:	0.2.4
 Release:	0.1
@@ -26,19 +26,19 @@ possible uses include:
 - forwarding TCP connections,
 - running as a simple SOCKS proxy server.
 
-%description -l pl
-prtunnel to program tuneluj±cy po³±czenia TCP/IP na wiele ró¿nych
-sposobów, m.in. przez serwery proxy HTTP i SOCKS5. Mo¿liwe
-zastosowania obejmuj±:
+%description -l pl.UTF-8
+prtunnel to program tunelujÄ…cy poÅ‚Ä…czenia TCP/IP na wiele rÃ³Å¼nych
+sposobÃ³w, m.in. przez serwery proxy HTTP i SOCKS5. MoÅ¼liwe
+zastosowania obejmujÄ…:
 
-- tunelowanie po³±czeñ TCP z programów klienckich do zdalnego serwera
-  poprzez proxy HTTP lub SOCKS5 (przydatne kiedy jeste¶my za takim
-  proxy i chcemy u¿yæ programu nie obs³uguj±cego natywnie proxy),
-- tunelowanie po³±czeñ TCP z programów klienckich obs³uguj±cych SOCKS
+- tunelowanie poÅ‚Ä…czeÅ„ TCP z programÃ³w klienckich do zdalnego serwera
+  poprzez proxy HTTP lub SOCKS5 (przydatne kiedy jesteÅ›my za takim
+  proxy i chcemy uÅ¼yÄ‡ programu nie obsÅ‚ugujÄ…cego natywnie proxy),
+- tunelowanie poÅ‚Ä…czeÅ„ TCP z programÃ³w klienckich obsÅ‚ugujÄ…cych SOCKS
   przez proxy HTTP lub SOCKS5,
-- tunelowanie po³±czeñ TCP z programów klienckich IPv4 do serwerów
-  IPv6 i na odwrót,
-- przekazywanie po³±czeñ TCP,
+- tunelowanie poÅ‚Ä…czeÅ„ TCP z programÃ³w klienckich IPv4 do serwerÃ³w
+  IPv6 i na odwrÃ³t,
+- przekazywanie poÅ‚Ä…czeÅ„ TCP,
 - uruchamianie prostego serwera proxy SOCKS.
 
 %prep
