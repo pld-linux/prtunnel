@@ -1,5 +1,5 @@
 Summary:	Tunneling a TCP connection through to a remote server using an HTTP or SOCKS5 proxy
-Summary(pl.UTF-8):   Tunelowanie połączenia TCP do zdalnego serwera przy użyciu proxy HTTP lub SOCKS5
+Summary(pl.UTF-8):	Tunelowanie połączenia TCP do zdalnego serwera przy użyciu proxy HTTP lub SOCKS5
 Name:		prtunnel
 Version:	0.2.4
 Release:	0.1
