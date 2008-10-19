@@ -1,12 +1,12 @@
 Summary:	Tunneling a TCP connection through to a remote server using an HTTP or SOCKS5 proxy
 Summary(pl.UTF-8):	Tunelowanie połączenia TCP do zdalnego serwera przy użyciu proxy HTTP lub SOCKS5
 Name:		prtunnel
-Version:	0.2.4
+Version:	0.2.7
 Release:	0.1
 License:	GPL
 Group:		Daemons
 Source0:	http://www.joshbeam.com/files/%{name}-%{version}.tar.gz
-# Source0-md5:	7244ab2e1aa106f6ebe6de4cd7d45d4b
+# Source0-md5:	5762a31a4a957c18e52e60cab289ea34
 URL:		http://www.joshbeam.com/software/prtunnel.php
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
