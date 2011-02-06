@@ -56,7 +56,7 @@ install -D prtunnel $RPM_BUILD_ROOT%{_bindir}/prtunnel
 install -D prtunnel.1 $RPM_BUILD_ROOT%{_mandir}/man1/prtunnel.1
 
 %clean
-rm -fr $RPM_BUILD_ROOT
+rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
