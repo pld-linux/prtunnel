@@ -8,6 +8,8 @@ Group:		Daemons
 Source0:	http://www.joshbeam.com/files/%{name}-%{version}.tar.gz
 # Source0-md5:	5762a31a4a957c18e52e60cab289ea34
 URL:		http://www.joshbeam.com/software/prtunnel.php
+Patch0:		prtunnel-format-security.patch
+Patch1:		prtunnel-warnings.patch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -43,6 +45,8 @@ zastosowania obejmują:
 
 %prep
 %setup -q
+%patch -P0 -p1
+%patch -P1 -p1
 
 %build
 %{__make} \

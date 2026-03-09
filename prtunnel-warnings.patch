@@ -1,0 +1,21 @@
+--- prtunnel-0.2.7.orig/proxy.c	2006-03-12 20:14:17.000000000 +0100
++++ prtunnel-0.2.7/proxy.c	2026-03-09 18:00:52.311063709 +0100
+@@ -697,7 +697,7 @@
+ 
+ 			if((flags & PRT_IRC_AUTOPONG) && strncmp(s, "PING :", 6) == 0) {
+ 				int j;
+-				char tmp[512];
++				char tmp[513];
+ 				char *servname;
+ 
+ 				for(j = i + 1; s[j] != '\n' && j < len - 1; j++)
+@@ -1112,7 +1112,8 @@
+ 		}
+ 
+ 		setsid();
+-		chdir("/");
++		if(chdir("/") != 0)
++			perror("chdir");
+ 	}
+ #endif /* _WIN32 */
+ 

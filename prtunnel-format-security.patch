@@ -1,0 +1,15 @@
+--- prtunnel-0.2.7.orig/main.c	2006-03-12 20:02:19.000000000 +0100
++++ prtunnel-0.2.7/main.c	2026-03-09 17:53:13.042521654 +0100
+@@ -250,10 +250,10 @@
+ 				add_trusted_address(optarg);
+ 				break;
+ 			case 'u':
+-				snprintf(username, USERNAME_MAX, optarg);
++				snprintf(username, USERNAME_MAX, "%s", optarg);
+ 				break;
+ 			case 'p':
+-				snprintf(password, PASSWORD_MAX, optarg);
++				snprintf(password, PASSWORD_MAX, "%s", optarg);
+ 				break;
+ 		}
+ 	}
